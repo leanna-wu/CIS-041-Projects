@@ -1,1 +1,94 @@
+# Bakery Sales Database
+
+This project is a *Bakery Sales Database developed in Microsoft Access (or LibreOffice Base) as part of Module 12coursework. The goal is to import, clean, organize, and analyze sales data from a bakery’s past order records. The project demonstrates intermediate data management skills including external file import, data cleaning, query creation, and generating summary totals.
+
+---
+
+## Project Objective
+
+The objective of this project is to apply key database concepts to a real-world sales dataset by:
+- Importing external data files
+- Cleaning and organizing data for usability
+- Filtering and querying specific bakery items (e.g., Chocolate Chip Cookies, Pecan Pies)
+- Creating total and summary features (e.g., total quantity sold)
+
+---
+
+## Technologies Used
+
+- Microsoft Access** (preferred) or LibreOffice Base**
+- External data import (.csv, .xlsx)
+- Sorting, filtering, and aggregation tools
+- Reports (optional)
+
+---
+
+## Database Components
+
+### Imported Table
+- Orders
+  - OrderID
+  - ItemName
+  - Quantity
+  - OrderDate
+  - CustomerName
+
+### Key Skills Applied
+- External Data Import (Loaded past order records from a CSV or Excel file into the database)
+
+- Data Cleaning
+  - Removed duplicates
+  - Standardized item names
+  - Removed null or invalid entries
+
+- Filtering & Querying
+  - Queries to isolate specific items:
+    - `ChocolateChipCookies_Query`
+    - `PecanPies_Query`
+  - Sort orders by date or quantity
+
+- Total Calculation
+  - Calculated total quantity sold across all orders
+  - Aggregated totals per item (optional)
+
+---
+
+## Installation Instructions
+
+1. Download the `.accdb` or `.odb` file from this repository.
+2. Open it with:
+   - Microsoft Access (2016 or newer), or
+   - LibreOffice Base (with the proper database engine)
+3. Enable content if prompted and navigate using the Query pane to explore results.
+
+---
+
+## Usage Examples
+
+- Run the `ChocolateChipCookies_Query` to view all sales related to chocolate chip cookies.
+- Open the `PecanPies_Query` to see sales for pecan pies only.
+- Use the 'Totals' query to calculate the total quantity of all items sold.
+- Filtered views by order date or customer name.
+
+---
+
+## Future Enhancements
+
+- Add customer contact information to improve tracking
+- Break down sales by day/week/month
+- Visualize sales trends using graphs or summary reports
+
+---
+
+## Contributing
+
+This database is an academic assignment and is not open to external contributions. Suggestions for improvement are welcome through issue submissions or forks.
+
+---
+
+## License
+
+This project is intended for **educational use only** and may not be reused or redistributed for commercial purposes without permission.
+
+---
 
