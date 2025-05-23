@@ -1,1 +1,91 @@
+# Customer & Orders Database
+This project is a relational database built using Microsoft Access (or LibreOffice Base), designed to manage and analyze customer and order data. The database integrates multiple tables, defines relationships, and demonstrates intermediate database concepts such as data sorting, filtering, querying, report generation, and total calculations. 
+
+This project was developed as part of the coursework for Unit 12: Relational Database Management.
+
+---
+
+## Project Objective
+
+The primary objectives of this project include:
+- Designing tables and establishing one-to-many relationships
+- Performing data entry, sorting, and filtering
+- Creating meaningful queries to extract and combine data from related tables
+- Generating reports based on query results
+- Demonstrating intermediate database skills
+
+---
+
+## Technologies Used
+
+- Microsoft Access (preferred) or LibreOffice Base
+- Table relationships
+- Form and Report design features
+
+---
+
+## Database Structure
+
+### Tables
+- Customers
+  - CustomerID (Primary Key)
+  - FirstName
+  - LastName
+  - PhoneNumber
+  - Email
+
+- Orders
+  - OrderID (Primary Key)
+  - OrderDate
+  - Amount (Amount Paid)
+  - CustomerID (Foreign Key)
+
+### Relationships
+- One-to-many relationship: Each customer can have multiple orders, linked by `CustomerID`.
+
+---
+
+## Key Features
+
+- Data Entry Forms: Easy-to-use interfaces for entering and managing customer and order records.
+- Data Sorting & Filtering: Built-in sorting by name/date and filtering by customer or order amount.
+- Orders Query: A query named `Orders Query` extracts:
+  - From Orders: `OrderID`, `Amount`
+  - From Customers: `FirstName`, `LastName`
+- Report Generation: A report created from `Orders Query` lists orders along with associated customer names.
+- Total Calculation*: Displays total amount paid and summaries for customer orders.
+
+---
+
+## Installation Instructions
+
+1. Download the `.accdb` (or `.odb` for LibreOffice Base) file from this repository.
+2. Open the file using:
+   - Microsoft Access 2016 or newer, or LibreOffice Base
+3. Enable content if prompted.
+
+---
+
+## Usage Examples
+
+- Add a new customer** using the "Customer Entry Form"
+- Record a new order** by linking it to an existing customer ID
+- Run the `Orders Query` to view a joined list of orders and customer names
+- Generate the `Orders Report` for printable summaries
+- Sort/filter by order date or customer name to analyze trends
+
+---
+
+## Contributing
+
+This project is part of an academic course and is not open for public contribution. 
+
+---
+
+## License
+
+This project is licensed for educational use only. Redistribution or commercial use without permission is prohibited.
+
+---
+
 
