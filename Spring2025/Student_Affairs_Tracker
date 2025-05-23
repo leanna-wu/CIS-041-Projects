@@ -7,14 +7,14 @@ This project is a Microsoft Access database application designed to manage and t
 The purpose of this database is to:
    - Efficiently organize student records
    - Enable quick retrieval and editing of student data
-   - Demonstrate the use of **MS Access features** such as tables, forms, queries, and reports
+   - Demonstrate the use of MS Access features such as tables, forms, queries, and reports
 This was developed as a course project for the CIS-041 class during Spring, 2025.
 
 ---
 
 ## Applications Used
 
-   - **Microsoft Access (.accdb)**
+   - Microsoft Access (.accdb)
    - Table relationships
    - Input forms for data entries
    - Reports for printable summaries
@@ -23,23 +23,23 @@ This was developed as a course project for the CIS-041 class during Spring, 2025
 
 ## Features
 
-- **Student Table**  
-  Stores basic student details including:
+- Student Table
+    Stores basic student details including:
   - Student ID (Primary Key)
   - First Name
   - Last Name
   - Email Address
 
-- **User Forms**  
+- User Forms  
   Easy-to-use forms for:
   - Adding new students
   - Editing existing student records
 
-- **Queries**
+- Queries
   - Search by ID or name
   - Filter by email or name patterns
 
-- **Reports**
+- Reports
   - Generate printable summaries of student data
 
 ---
@@ -47,7 +47,7 @@ This was developed as a course project for the CIS-041 class during Spring, 2025
 ## Installation Instructions
 
    1. Download the `.accdb` file from the repository.
-   2. Open it using **Microsoft Access 2016 or newer**.
+   2. Open it using Microsoft Access 2016 or newer.
    3. Enable content if prompted.
    4. Use the main form interface to begin entering or searching student records.
 
@@ -56,9 +56,9 @@ This was developed as a course project for the CIS-041 class during Spring, 2025
 ## Usage Example
 
    1. Launch the file in MS Access.
-   2. Click on **"Student Entry Form"** to add a new student.
-   3. Use the **"Search Student"** query to look up records by ID or name.
-   4. Generate a **report** to print a summary list of all students.
+   2. Click on "Student Entry Form" to add a new student.
+   3. Use the "Search Student" query to look up records by ID or name.
+   4. Generate a report to print a summary list of all students.
 
 ---
 
